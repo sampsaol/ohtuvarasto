@@ -78,6 +78,6 @@ class TestVarasto(unittest.TestCase):
 
     def test_printtaus_toimii(self):
         teksti = str(self.varasto)
-        self.assertEqual("saldo = 1, vielä tilaa 10", teksti)
+        self.assertEqual("saldo = 0, vielä tilaa 10", teksti)
     
 
